@@ -30,9 +30,7 @@ The workflow is simple.
   // A preview of recipe card with responsive dimension
   <RecipeCard />
 
-  // This div is just the recipe card wrapper in order to pass ref easily. We style it to hide it from the UI.
-
-  // Inside, we have a printable recipe card with precise A4 dimensions.
+  // This div is just the recipe card wrapper in order to pass ref easily. We style it to hide it from the UI, and inside, we have a printable recipe card with precise A4 dimensions.
   <div ref={ref}>
     <RecipeCardPrintable />
   </div>
