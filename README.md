@@ -22,7 +22,7 @@ The workflow is simple.
   </ReactToPdf>
   ```
 
-  > ReactToPdf wrapper is imported from the `react-to-pdf` library. It passes a context object to its child node. This context object is destructured to get the `toPdf` function which was then passed as the `onClick` event handler for the underlying `button`. See the `react-to-pdf` [docs](https://npmjs.com/package/react-to-pdf) to learn more.
+  > The `ReactToPdf` wrapper is imported from the `react-to-pdf` library. It passes a context object to its child node. This context object is destructured to get the `toPdf` function which was then passed as the `onClick` event handler for the underlying `button`. See the `react-to-pdf` [docs](https://npmjs.com/package/react-to-pdf) to learn more.
 
 - Remember that `ReactToPdf` is targeting a component using a ref. So, we have a `RecipeCard` component owning that ref.
 
