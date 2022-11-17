@@ -38,4 +38,4 @@ The workflow is simple.
 
 ## Live link
 
-[https://sosos](https://vercel.com)
+[https://recipe-card-example-boot.vercel.app/](https://recipe-card-example-boot.vercel.app/)
